@@ -1,6 +1,5 @@
 :root {
   --nat-navbar-bg: darkGreen;
-  --nat-navbar-bg-color: darkGreen;
   --nat-navbar-bg-rgb: 0, 50, 32;
   --nat-navbar-text-color: white;
   --nat-navbar-highlight-text: var(--bs-gray-500);
@@ -11,6 +10,8 @@ body {
   --bs-dark: var(--nat-navbar-bg);
   --bs-dark-rgb: var(--nat-navbar-bg-rgb);
   --bs-light-rgb: 236, 236, 236;
+  background-image: url("/background-grass.jpg");
+  background-size: cover;
   box-sizing: border-box;
   height: 100%;
   padding: 0;
